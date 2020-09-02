@@ -164,7 +164,7 @@
             <label>Message:</label><br>
             <textarea rows="5"></textarea>
             <div class="button">
-                <button type="submit" class="submit">Send</button>
+                <button type="submit" class="submit" id="submit">Send</button>
                 <button type="reset" class="reset">Clear</button>
 
             </div>
@@ -179,10 +179,24 @@
 
 <script>
 
-    var ctx = document.getElementById('myChart');
-    var ctx2 = document.getElementById('myChart2');
-    var ctx3 = document.getElementById('myChart3');
-    var ctx4 = document.getElementById('myChart4');
+    const ctx = document.getElementById('myChart');
+    const ctx2 = document.getElementById('myChart2');
+    const ctx3 = document.getElementById('myChart3');
+    const ctx4 = document.getElementById('myChart4');
+
+    const submit = document.getElementById('submit');
+    console.log(submit);
+    submit.addEventListener('click', (e) => {
+        e.preventDefault();
+        let a = alert('submit ?');
+        console.log("kopkkop");
+
+    });
+
+
+
+
+
 
 
     createChart(ctx, ["HTML/CSS", "unskilled HTML/CSS"], [40, 60]);

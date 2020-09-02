@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Chakriya Profile</title>
+    <link rel="stylesheet" href="./resume_style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&family=Roboto&display=swap"
+        rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.14.0/js/all.js" data-auto-replace-svg="nest"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <div id="header">
+        <img class="image-profile" alt="image profile" src="./asset/Adjustments (2).plist" width="200"
+            height="200"></img>
+        <div class="col-4 col-s-4 typewriter">
+            <h1>I'm Chakriya</h1>
+            <h5>sit amet consectetur adipisicing elit. Animi iusto </h5>
+        </div>
+
+        <div class="content">
+            <a href="https://www.facebook.com/profile.php?id=100018071239155"> <i class="fab fa-facebook-square">
+                </i></a>
+            <a href="https://www.instagram.com/kimcha__/?hl=th"><i class="fab fa-instagram"></i> </a>
+            <a href="https://linkinprofile.com/dashboard#_"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:kimchakriya@gmail.com" class="email-social"><i class="far fa-envelope"></i></a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="navbar-brand mr-5" href="#header">Chakriya Promthong</a>
+                <a class="navbar-brand mr-5" href="#about-me">About Me </a>
+                <a class="navbar-brand mr-5" href="#education">Education</a>
+                <a class="navbar-brand mr-5" href="#skills">Skills</a>
+                <a class="navbar-brand" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav id="nav-mobile">
+        <select>
+            <option>
+                <a class="navbar-brand mr-5" href="#header">Chakriya Promthong</a>
+            </option>
+            <option>
+                <a class="navbar-brand mr-5" href="#about-me">About Me</a>
+            </option>
+            <option>
+                <a class="navbar-brand mr-5" href="#education">Education</a>
+            </option>
+            <option>
+                <a class="navbar-brand mr-5" href="#skills">Skills</a>
+            </option>
+            <option>
+                <a class="navbar-brand" href="#projects">Projects</a>
+            </option>
+        </select>
+
+    </nav>
+
+    <div id="about-me">
+        <h2>About Me</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quia, officiis ipsa
+            aliquam at necessitatibus,
+            et earum reiciendis cumque porrrem placeat consequuntur, aliquid itaque ab omnis!
+            Provident! Lorem ipsu
+            necessitatibus ratione quibusdam dolorem!</p>
+    </div>
+
+    <div id="education-language">
+
+        <div id="education">
+            <h2>Education</h2>
+            <div class="education-container">
+                <ul>
+                    <li>
+                        <div id="highs-chool">
+                            <h4>High School</h4>
+                            <P>
+                                Suranari Wittaya School <br>
+                                Nakhon Ratchasima Thailand <br>
+                                2012-2017
+                            </P>
+                        </div>
+                    </li>
+                    <li>
+                        <div id="college">
+                            <h4>college</h4>
+                            <P>
+                                Faculty of Engineering<br>
+                                Khon Kaen University <br>
+                                2018-present
+                            </P>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="language">
+            <h2>Language</h2>
+            <table>
+                <tr>
+                    <th>Language</th>
+                    <th colspan="6">level</th>
+                </tr>
+                <tr>
+                    <td>Thailand</td>
+                    <td colspan="6">5</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td colspan="2">2</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="skills">
+        <h2>Skills</h2>
+        <div class="chart">
+            <div class="chart-container chart-style" style=" height:14vh; width:24vw; text-align: center">
+                <h4>HTML/CSS</h4>
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="chart-container chart-style" style=" height:14vh; width:24vw; text-align: center">
+                <h4>JavaScript</h4>
+
+                <canvas id="myChart2"></canvas>
+            </div>
+            <div class="chart-container chart-style" style=" height:14vh; width:24vw; text-align: center">
+                <h4>React Native</h4>
+
+                <canvas id="myChart3"></canvas>
+            </div>
+            <div class="chart-container chart-style" style=" height:14vh; width:24vw; text-align: center">
+                <h4>Java</h4>
+                <canvas id="myChart4"></canvas>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <h2>Contact</h2>
+        <form>
+            <div class="input">
+                <label>Name:</label><br>
+                <input><br>
+                <label>Email:</label><br>
+                <input><br>
+            </div>
+            <label>Message:</label><br>
+            <textarea rows="5"></textarea>
+            <div class="button">
+                <button type="submit" class="submit">Send</button>
+                <button type="reset" class="reset">Clear</button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+
+
+</body>
+
+<script>
+
+    var ctx = document.getElementById('myChart');
+    var ctx2 = document.getElementById('myChart2');
+    var ctx3 = document.getElementById('myChart3');
+    var ctx4 = document.getElementById('myChart4');
+
+
+    createChart(ctx, ["HTML/CSS", "unskilled HTML/CSS"], [40, 60]);
+    createChart(ctx2, ["JavaScript", "unskilled JavaScript"], [30, 80]);
+    createChart(ctx3, ["React Native", "unskilled React Native"], [40, 60]);
+    createChart(ctx4, ["Java", "unskilled Java"], [40, 60]);
+
+
+
+    function createChart(chart, label, data) {
+        var myDoughnutChart2 = new Chart(chart, {
+            type: 'doughnut',
+            data: {
+                labels: label,
+                datasets: [{
+                    data: data,
+                    backgroundColor: ['#52575d', '#f6f4e6'],
+                    borderColor: ['#52575d', '#52575d'],
+                    borderWidth: 1
+                }]
+            },
+        });
+    }
+</script>
+
+</html>

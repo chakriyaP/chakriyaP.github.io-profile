@@ -419,3 +419,7 @@ form button {
   background-color: #52575d;
   color: #f6f4e6;
 }
+
+#name {
+  border-bottom: 2px solid  #52575d   ;
+}
